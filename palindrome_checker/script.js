@@ -12,7 +12,7 @@ submit.addEventListener("click",()=>{
         result.append(h1);
         let reversed = inputValue.reverse();
         if(inputValue===reversed){
-            h1.innerHTML="Palindrome it is :happy";
+            h1.innerHTML="Palindrome it is git add .";
         }
         else{
             h1.innerHTML="not a palindrome number :sad";
