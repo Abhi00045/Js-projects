@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <style>
+        *{
+            box-sizing: border-box; 
+            margin: 0;  
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            color: aquamarine;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .checker{
+           /* border: 2px solid aquamarine; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 50px;   
+        }
+        #palindromeInput{
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            width: 400px;
+        }
+        #palindrome-form button{
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            border: 2px solid aquamarine;
+            background-color: rgb(33, 95, 47);
+            color: aquamarine;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Palindrome Checker</h1>
+    <div class="checker">
+        <form id="palindrome-form">
+            <label for="palindrome-input">Enter a word or phrase:</label>
+            <input type="text" id="palindromeInput">
+            <button type="submit" id="submit">Check</button>
+        </form>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
